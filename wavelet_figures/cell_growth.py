@@ -49,7 +49,7 @@ for j in condition_combine_dict:
             
         count_list = [(l+m) for l,m in zip(count_list,count_list_pos)]
     
-    count_list = [x/count_0 for x in count_list]
+    count_list = [x/count_0 for x in count_list] # this line defines how you normalize cell counts
     count_dict[j] = count_list
 
  
